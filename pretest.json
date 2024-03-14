@@ -1,0 +1,38 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "In which one of the following is used for multitasking?",
+      "answers": {
+        "a": "Raspberry Pi Model",
+        "b": "Arduino Uno",
+        "c": "Both a and b",
+        "d": "None of the above"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which Raspberry Pi model has an Ethernet port?",
+      "answers": {
+        "a": "Model A+",
+        "b": "Model B+",
+        "c": "Both a and b",
+        "d": "None of the above"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How many GPIO pins does Raspberry Pi Model B+ have?",
+      "answers": {
+        "a": "7",
+        "b": "12",
+        "c": "25",
+        "d": "40"
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    }
+  ]
+}
