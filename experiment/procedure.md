@@ -10,19 +10,20 @@
    $ sudo nano /etc/systemd/system/dbus-org.bluez.service
 3. Then, modify the ExecStart param:
    ExecStart=/usr/lib/bluetooth/bluetoothd –C
-   <img src="./images/7.1.png" alt="conventional databse" width='60%'></div>
+ <div>  <img src="./images/7.1.png" alt="conventional databse" width='60%'></div>
 4. Now, load the serial port profile by using the command below:
    $ sudo sdptool add SP
 
-   <img src="./images/exp72.png" alt="conventional databse" width='60%'></div>
+ <div>  <img src="./images/exp72.png" alt="conventional databse" width='60%'></div>
 
 5. To save the changes properly, restart your Pi:
    $ sudo reboot
-   <img src="./images/exp73.png" alt="conventional databse" width='60%' ></div>
-   After the Rebooting let us pair the Bluetooth with our android phone
-6. Pairing Raspberry Pi and Android Phone.
+ <div>  <img src="./images/exp73.png" alt="conventional databse" width='60%' ></div>
+ 
+6. After the Rebooting let us pair the Bluetooth with our android phone
+ Pairing Raspberry Pi and Android Phone.
    Pair your Android phone with your Raspberry Pi. To do this, turn your phone's bluetooth on, and run the command below in your Pi:
-   <img src="./images/exp75.png" alt="conventional databse" width='60%'></div>
+ <div>  <img src="./images/exp75.png" alt="conventional databse" width='60%'></div>
    Then, once the pairing process starts inserting the following parameters. (Refer to the image to get a better idea of the flow process)
 
 - power on
@@ -31,7 +32,7 @@
 - At this point, your phone will appear in the list of available devices. Take note of \* the address of your phone.
 - trust <PHONE_ADDRESS>
 - pair <PHONE_ADDRESS>
-  <img src="./images/exp76.png" alt="conventional databse" width='60%'></div>
+<div>  <img src="./images/exp76.png" alt="conventional databse" width='60%'></div>
 
 7. For just exit the bluetooth ctl, write the quit command:
    $ quit
