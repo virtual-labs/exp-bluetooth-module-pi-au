@@ -1,0 +1,27 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The Raspberry Pi has _________ output and input ports.",
+      "answers": {
+        "a": "Digital I/O",
+        "b": "Analog inputs",
+        "c": "Analog outputs",
+        "d": "All of the above"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which command is used to change the directory?",
+      "answers": {
+        "a": "cd",
+        "b": "pwd",
+        "c": "ls",
+        "d": "None of the above"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
