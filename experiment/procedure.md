@@ -1,18 +1,17 @@
 ### Procedure
 
   <h4>Hardware Setup</h4>
-    <ul>
-        <li>Connect the Vcc of HC-05 Bluetooth Sensor to the 5V PWR of Raspberry Pi</li>
-        <li>Connect the TX pin of HC-05 Bluetooth Sensor to the UART0 RX pin of Raspberry Pi</li>
-        <li>Connect the RX pin of HC-05 Bluetooth Sensor to the UART0 TX pin of Raspberry Pi</li>
-        <li>Connect the GND pin of HC-05 Bluetooth Sensor to the GND pin of Raspberry Pi</li>
-        <li>Click the Bluetooth icon on the smartphone to turn on Bluetooth</li>
-        <li>Turn on Bluetooth by clicking the switch on the smartphone screen</li>
-        <li>Select Raspberry Pi from the available devices</li>
-        <li>Click the pair option to pair the smartphone</li>
-    </ul>
- <div><img src="./images/diagram.png" alt="conventional databse" width="50%"></div>
+   
+- Connect the **Vcc** of the HC-05 Bluetooth module to the **5V power** pin of the Raspberry Pi.
+- Connect the **TX** pin of the HC-05 Bluetooth module to the **UART0 RX** pin of the Raspberry Pi.
+- Connect the **RX** pin of the HC-05 Bluetooth module to the **UART0 TX** pin of the Raspberry Pi.
+- Connect the **GND** pin of the HC-05 Bluetooth module to the **GND** pin of the Raspberry Pi.
+- On the smartphone, click the Bluetooth icon to enable Bluetooth.
+- Toggle the Bluetooth switch on the smartphone screen to turn it on.
+- Select the Raspberry Pi from the list of available devices.
+- Click the **Pair** option to pair the smartphone with the Raspberry Pi.
 
+ 
 - After completing the circuit, the user can enter the data into the code, and it will be transferred to the smartphone via Bluetooth, displaying on the smartphone.
 
  <h4>Software Setup</h4>
