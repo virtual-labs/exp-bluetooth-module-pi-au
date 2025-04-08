@@ -22,6 +22,50 @@
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
+    },
+    {
+      "question": "What is the default username for Raspberry Pi OS?",
+      "answers": {
+        "a": "pi",
+        "b": "admin",
+        "c": "root",
+        "d": "raspberry"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which programming language is commonly used with Raspberry Pi for hardware interfacing?",
+      "answers": {
+        "a": "Java",
+        "b": "Python",
+        "c": "C#",
+        "d": "Ruby"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which GPIO pin numbering mode refers to the physical pin numbers on the board?",
+      "answers": {
+        "a": "BCM",
+        "b": "WPI",
+        "c": "BOARD",
+        "d": "GPIO"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What does the 'sudo' command do in Raspberry Pi's terminal?",
+      "answers": {
+        "a": "Starts a new terminal",
+        "b": "Displays the manual",
+        "c": "Gives superuser privileges",
+        "d": "Creates a new user"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
     }
   ]
 }
