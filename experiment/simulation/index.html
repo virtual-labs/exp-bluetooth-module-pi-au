@@ -7,20 +7,20 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <title>Vite App</title>
-    <script type="module" crossorigin src="js/index-392ec38e.js"></script>
-    <link rel="stylesheet" href="css/index-1645dbdc.css">
+    <script type="module" crossorigin src="js/index-e799d508.js"></script>
+    <link rel="stylesheet" href="css/index-56df1bed.css">
   </head>
 
-  <body class="drawer drawer-end container-fluid h-full bg-base-100">
+  <body class="drawer drawer-end container-fluid h-full">
     <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
     <div class="drawer-content">
       <div class="flex flex-col sm:flex-row">
-        <div class="w-1/3 sm:block bg-base-200 pl-6 pr-6">
-          <div id="theory" style="position:relative;">
-            <div style="position:absolute;right: 0; top: 12px;">
-              <i style="color: rgb(41, 156, 222);display: flex; justify-content: flex-end" class="fa-solid fa-circle-info fa-xl" id="info"></i>
+        <div class="w-1/3 sm:block pl-6 pr-6">
+          <div id="theory" style="position: relative;">
+            <div style="position: absolute; right: 0; top: 12px;">
+              <i style="color: rgb(41, 156, 222); display: flex; justify-content: flex-end;" class="fa-solid fa-circle-info fa-xl" id="info"></i>
             </div>
-            <div style="display: none" id="list">
+            <div style="display: none;" id="list">
               <h2 class="text-xl font-bold mt-4 mb-4">General Instruction</h2>
               <ul class="list-disc ml-8 mt-4">
                 <li>Click on the components to start interacting with them in the connection area</li>
@@ -34,7 +34,6 @@
               <img src="images/diagram.png" alt="diagram" />
             </div>
             <ol class="list-disc ml-8 mt-4">
-              <li>Make a voltage divider circuit using two resistors, connecting one end of the pin to another</li>
               <li>Connect the VCC of the HC-05 Bluetooth Sensor to the 5V PWR pin of the Raspberry Pi</li>
               <li>Connect the TX pin of the HC-05 Bluetooth Sensor to the UART0 RX pin of the Raspberry Pi</li>
               <li>Connect the RX pin of the HC-05 Bluetooth Sensor to the UART0 TX pin of the Raspberry Pi</li>
@@ -56,7 +55,7 @@
           <div class="h-full">
             <div id="components" class="components">
               <label for="my-drawer-4" class="drawer-button btn btn-primary btn-md float-right w-40 m-4">☰ CODE</label>
-              <button class="button float-right btn btn-warning btn-md w-40 m-4" onClick="window.location.href=window.location.href">RESET</button>
+              <button class="button float-right btn btn-warning btn-md w-40 m-4" onclick="window.location.href=window.location.href">RESET</button>
               <button id="undoButton" class="float-right btn btn-md w-40 m-4" style="background-color: #3498db; border: none;">UNDO</button>
               <div id="rasberryPi" class="component bg-slate-200 rounded-lg text-center">
                 <img src="images/pi3dirk.svg" class="w-20 h-20" />
@@ -90,40 +89,40 @@
         <button id="codeSubmit" class="btn btn-primary">Submit</button>
         import bluetooth
 
-def start_bluetooth_server():
-    server_sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM)
+        def start_bluetooth_server():
+            server_sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM)
 
-    port = 1  # You can use any available port
+            port = 1  # You can use any available port
 
-    server_sock.bind(("", port))
-    server_sock.listen(1)
+            server_sock.bind(("", port))
+            server_sock.listen(1)
 
-    print("Waiting for Bluetooth connection...")
+            print("Waiting for Bluetooth connection...")
 
-    client_sock, client_info = server_sock.accept()
-    print("Accepted connection from", client_info)
+            client_sock, client_info = server_sock.accept()
+            print("Accepted connection from", client_info)
 
-    try:
-        while True:
-            message = input( 
-            <input type="text" id="inputValue">)
-            if not message:
-                break
+            try:
+                while True:
+                    message = input(
+                    <input type="text" id="inputValue">)
+                    if not message:
+                        break
 
-            client_sock.send(message)
-            print(f"Sent: {message}")
+                    client_sock.send(message)
+                    print(f"Sent: {message}")
 
-    except KeyboardInterrupt:
-        print("Interrupted by user")
+            except KeyboardInterrupt:
+                print("Interrupted by user")
 
-    finally:
-        print("Closing connection...")
-        client_sock.close()
-        server_sock.close()
-        print("Server closed")
+            finally:
+                print("Closing connection...")
+                client_sock.close()
+                server_sock.close()
+                print("Server closed")
 
-if __name__ == "__main__":
-    start_bluetooth_server()
+        if __name__ == "__main__":
+            start_bluetooth_server()
       </pre>
     </div>
 

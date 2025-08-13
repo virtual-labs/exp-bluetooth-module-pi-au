@@ -2,69 +2,69 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "The Raspberry Pi has _________ output and input ports.",
+      "question": "Which protocol does the Raspberry Pi use to communicate over Bluetooth with devices like HC-05?",
       "answers": {
-        "a": "Digital I/O",
-        "b": "Analog inputs",
-        "c": "Analog outputs",
-        "d": "All of the above"
-      },
-      "correctAnswer": "d",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Which command is used to change the directory?",
-      "answers": {
-        "a": "cd",
-        "b": "pwd",
-        "c": "ls",
-        "d": "None of the above"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "What is the default username for Raspberry Pi OS?",
-      "answers": {
-        "a": "pi",
-        "b": "admin",
-        "c": "root",
-        "d": "raspberry"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Which programming language is commonly used with Raspberry Pi for hardware interfacing?",
-      "answers": {
-        "a": "Java",
-        "b": "Python",
-        "c": "C#",
-        "d": "Ruby"
+        "a": "HTTP",
+        "b": "Serial Port Profile (SPP)",
+        "c": "MQTT",
+        "d": "I2C"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "Which GPIO pin numbering mode refers to the physical pin numbers on the board?",
+      "question": "What is the maximum typical range of Bluetooth communication for Raspberry Pi projects?",
       "answers": {
-        "a": "BCM",
-        "b": "WPI",
-        "c": "BOARD",
-        "d": "GPIO"
+        "a": "1 meter",
+        "b": "10 meters",
+        "c": "100 meters",
+        "d": "1 kilometer"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "What does the 'sudo' command do in Raspberry Pi's terminal?",
+      "question": "Which pins on the Raspberry Pi are used to interface with an external HC-05 Bluetooth module?",
       "answers": {
-        "a": "Starts a new terminal",
-        "b": "Displays the manual",
-        "c": "Gives superuser privileges",
-        "d": "Creates a new user"
+        "a": "GPIO 2 and GPIO 3",
+        "b": "TX and RX (UART0)",
+        "c": "SDA and SCL",
+        "d": "GPIO 17 and GPIO 27"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why is pairing required between Raspberry Pi and a Bluetooth device?",
+      "answers": {
+        "a": "To discover the device and establish a secure connection",
+        "b": "To increase signal strength",
+        "c": "To enable Wi-Fi sharing",
+        "d": "To provide power to the device"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "When Raspberry Pi acts as a Bluetooth server, what is its role?",
+      "answers": {
+        "a": "It waits for connections from clients",
+        "b": "It initiates connections to other devices",
+        "c": "It broadcasts Wi-Fi signals",
+        "d": "It functions as a modem"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the primary role of the HC-05 module in this experiment?",
+      "answers": {
+        "a": "To power the Raspberry Pi",
+        "b": "To enable serial communication over Bluetooth",
+        "c": "To store sensor data",
+        "d": "To connect to the internet"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
