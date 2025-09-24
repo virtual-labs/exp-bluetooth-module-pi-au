@@ -1,4 +1,3 @@
-### Theory
 
 Bluetooth technology has become a mainstream communication standard in embedded and IoT systems, offering a reliable method for wireless data exchange over short distances. With built-in **Bluetooth** capability, the **Raspberry Pi** is an ideal platform for building Bluetooth-based data transfer systems.
 
@@ -35,13 +34,13 @@ To initiate communication, a **pairing process** must occur between the Raspberr
 - Connected via the Pi’s UART (TX/RX) pins  
 - Useful when internal Bluetooth is reserved or additional range is needed  
 - Requires proper voltage level shifting for compatibility  
-  <div><img src="./images/HC05.png" alt="HC-05 Module" width="40%"></div>
+  <div><img src="./images/HC05.png" alt="HC-05 Module" width="25%"></div>
 
 3. Android Smartphone (Android 4.2 or above)
 - Acts as the Bluetooth client or server  
 - Used to receive data, send commands, or test the pairing and communication  
 - Can display received data via mobile apps or custom interfaces  
-  <div><img src="./images/Phone.jpg" alt="Android Phone" width="20%"></div>
+  <div><img src="./images/Phone.jpg" alt="Android Phone" width="10%"></div>
 
 
 
