@@ -4,7 +4,7 @@
 <b>Discipline | <b>Computer Science and Engineering
 :--|:--|
 <b> Lab | <b> Internet of Things (IoT) 
-<b> Experiment|     <b>To interface Bluetooth module with Raspberry Pi
+<b> Experiment|     <b>Raspberry Pi Bluetooth Data Transfer to Smartphone
 
 ### About the Experiment 
 
