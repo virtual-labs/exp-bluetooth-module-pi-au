@@ -41,7 +41,8 @@ To initiate communication, a **pairing process** must occur between the Raspberr
 - Acts as the Bluetooth client or server  
 - Used to receive data, send commands, or test the pairing and communication  
 - Can display received data via mobile apps or custom interfaces  
-  <div><img src="./images/phone.jpg" alt="Android Phone" width="20%"></div>
+  <div><img src="./images/Phone.jpg" alt="Android Phone" width="20%"></div>
+
 
 
 
