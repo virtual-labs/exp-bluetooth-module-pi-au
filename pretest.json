@@ -1,0 +1,61 @@
+{
+  "version": 2.0,
+  "questions": [
+    
+    {
+      "question": "Which Raspberry Pi model has an Ethernet port?",
+      "answers": {
+        "a": "Model A+",
+        "b": "Model B+",
+        "c": "Both a and b",
+        "d": "None of the above"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How many GPIO pins does Raspberry Pi Model B+ have?",
+      "answers": {
+        "a": "7",
+        "b": "12",
+        "c": "25",
+        "d": "40"
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which interface is commonly used to communicate with Bluetooth modules on Raspberry Pi?",
+      "answers": {
+        "a": "SPI",
+        "b": "UART",
+        "c": "I2C",
+        "d": "HDMI"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the role of the 'raspi-config' command in Raspberry Pi?",
+      "answers": {
+        "a": "To install packages",
+        "b": "To set up Wi-Fi",
+        "c": "To configure Raspberry Pi settings",
+        "d": "To write code"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following operating systems is officially supported by Raspberry Pi?",
+      "answers": {
+        "a": "Raspbian",
+        "b": "Ubuntu",
+        "c": "Windows 11",
+        "d": "MS-DOS"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    }
+  ]
+}
