@@ -1,6 +1,5 @@
-### Procedure
 
-  <h4>Hardware Setup</h4>
+<h4>Hardware Setup</h4>
    
 - Connect the **Vcc** of the HC-05 Bluetooth module to the **5V power** pin of the Raspberry Pi.
 - Connect the **TX** pin of the HC-05 Bluetooth module to the **UART0 RX** pin of the Raspberry Pi.

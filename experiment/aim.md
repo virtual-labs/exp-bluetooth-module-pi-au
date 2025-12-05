@@ -1,4 +1,3 @@
-### Aim of the Experiment
 
 The primary objective of this experiment is to establish wireless communication between a Raspberry Pi and a smartphone using Bluetooth technology. This involves interfacing a Bluetooth module (such as HC-05/HC-06 or using the built-in Bluetooth of Raspberry Pi) with the Raspberry Pi, configuring the necessary software and hardware settings, and implementing a program in Python to enable data transmission. The experiment demonstrates the capability of the Raspberry Pi to function as a Bluetooth server or client, thereby facilitating the exchange of data with other Bluetooth-enabled devices, particularly smartphones. This forms a foundational step in building wireless IoT systems, smart automation, and remote control applications.
 
